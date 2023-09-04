@@ -1,3 +1,71 @@
-.index-title {
-  font-size: 100px;
+.alphaboxCircle {
+  width: 196px;
+  height: 196px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both; 
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg);}
+}
+.letter-spacer-4{
+  letter-spacing: 13px;
+}
+.letter-spacer-20{
+  letter-spacing: 47px;
+}
+.border-custom{
+  background-image: linear-gradient(to right, #7000FF 1.22%, #11002D 116.05%);
+  border-image-slice: 1;
+  height: 40px;
+}
+.border-custom2{
+  background-image: linear-gradient(to left, #7000FF 1.22%, #11002D 116.05%);
+  border-image-slice: 1;
+  height: 40px;
+}
+.swiper{
+  width: 100%;
+}
+.arrow-box{
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.border-lg-end{
+  border-right: 1px solid #fff;
+}
+.swiper-scrollbar {
+  background: rgba(255, 255, 255, 0.2);
+}
+.swiper-scrollbar-drag {
+  background: #ffffff !important;
+}
+.share-scroll {
+  margin-top: 24px !important;
+  margin-bottom: 136px;
+}
+.w-32{
+  width: 32%;
+}
+.w-58{
+  width: 58.64198%;
+}
+.custom-number{
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+@media (max-width:992px){
+  .nav-item{
+    text-align: center;
+  }
+  .border-lg-end{
+    border-right: 0px solid #fff;
+  }
+  .w-lg-100{
+    width: 100%;
+  }
 }

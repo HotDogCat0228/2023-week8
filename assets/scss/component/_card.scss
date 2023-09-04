@@ -1,0 +1,51 @@
+.img-card:hover{
+    box-shadow: 0px 0px 16px 8px #8F00FFCC;
+    transition: box-shadow 0.3s;
+}
+.img-card:not(hover){
+    box-shadow: 0px 0px 0px 0px #8F00FFCC;
+    transition: box-shadow 0.3s;
+}
+
+.custom-card1{
+    width: 416px;
+    height: 416px;
+    padding: 40px;
+    color: #fff;
+    font-weight: bold;
+    background: #380C7E;
+    display: flex;
+    flex-direction: column;
+}
+.custom-card2{
+    width: 416px;
+    height: 416px;
+    padding: 40px;
+    font-weight: bold;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.character-card{
+    background: #000;
+    padding-top: 24px;
+    padding-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    transition: 0.5s;
+    &:hover {
+    background-color: #00000080;
+    }
+}
+@media (max-width:992px){
+    .custom-card1,.custom-card2{
+        width: 100%;
+        height: 351px;
+    }
+    .character-card{
+        padding: 24px 12px 40px 12px;
+    }
+}

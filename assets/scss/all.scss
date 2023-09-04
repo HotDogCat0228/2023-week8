@@ -1,11 +1,27 @@
 //font-family
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 
 @import "../../node_modules/bootstrap/scss/functions";
+
+// load utils
+
+
+@import "./base/base";
+@import "./base/fontStyle";
+
+@import "./mixins/bg-gradient";
+
 @import './utils/variables';
 
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "./utils/utilities";
+
+@import "./component/bullet";
+@import "./component/button";
+@import "./component/background";
+@import "./component/card";
 
 @import './layout/header.scss';
 @import './layout/footer.scss';
