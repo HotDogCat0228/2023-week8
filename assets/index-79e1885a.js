@@ -1,0 +1,1 @@
+import"./main-90e5400f.js";new Swiper(".swiper",{navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});new Swiper(".swiper2",{slidesPerView:3,centeredSlides:!0,spaceBetween:30,pagination:{el:".swiper-pagination",type:"fraction"},scrollbar:{el:".swiper-scrollbar",draggable:!0,dragSize:50}});
